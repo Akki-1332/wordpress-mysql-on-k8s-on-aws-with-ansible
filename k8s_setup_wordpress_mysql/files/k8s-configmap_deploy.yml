@@ -5,5 +5,5 @@ metadata:
 data:
   mysql_password: redhat
   mysql_name: wordpress_database
-  mysql_username: buddhi
-  mysql_userpassword: prakash
+  mysql_username: akki
+  mysql_userpassword: akpassword
