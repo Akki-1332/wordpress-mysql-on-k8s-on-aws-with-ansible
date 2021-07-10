@@ -1,5 +1,5 @@
 #run these commands in bash shell!!
 
-export AWS_ACCESS_KEY_ID=AKIA2YXO6FNV4J4AZ2N5
-export AWS_SECRET_ACCESS_KEY=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
+export AWS_ACCESS_KEY_ID=AKIA2Y***********
+export AWS_SECRET_ACCESS_KEY=U1GmcnauB***************
 export AWS_REGION=ap-south-1
