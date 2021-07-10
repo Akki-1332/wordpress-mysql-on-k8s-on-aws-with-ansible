@@ -1,3 +1,3 @@
-aws_access_key: AKIA2YXO6FNV4J4AZ2N5
-aws_secret_key: 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
+aws_access_key: AKIA*************
+aws_secret_key: U1Gmcn**********
 
