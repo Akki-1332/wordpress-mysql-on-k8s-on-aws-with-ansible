@@ -1,0 +1,22 @@
+- hosts: localhost
+  vars_files:
+  - var.txt
+  tasks:
+  - name: "launching ec2 instance"
+    ec2:
+     key_name: "akki"
+     instance_type: "t2.micro"
+     image: "ami-00bf4ae5a7909786c"
+     count: 1
+     vpc_subnet_id: "subnet-4e1b1226"
+     group_id: "sg-0ddcb045504cc2a33"
+     assign_public_ip: yes
+     wait: yes
+     instance_tags:
+      Name: master
+     region: "ap-south-1"
+     state: present
+     aws_access_key: "{{ access_key }}"
+     aws_secret_key: "{{ secret_key }}"
+    register: ec2
+

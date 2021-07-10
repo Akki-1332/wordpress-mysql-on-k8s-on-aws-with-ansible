@@ -1,0 +1,1 @@
+kubeadm join 172.31.40.168:6443 --token glmrt5.d4hy57vkt8spoi7x --discovery-token-ca-cert-hash sha256:01d2797143b5ae1c822543cf066412caa746253d6fab5d075829ef51d83e2302 
